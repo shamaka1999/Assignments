@@ -1,5 +1,4 @@
 
 # Week 4 Task
 
-This Project contains the registration page and the portfolio page 
-
+This Project contains the Grid and Flex page 
