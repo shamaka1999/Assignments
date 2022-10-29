@@ -1,0 +1,67 @@
+/*login page*/
+
+body{
+  text-align: start;
+  background: linear-gradient(to right bottom, #992499, #3c3caa);
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
+  min-height:100vh;
+   
+}
+ h3 {
+  color: purple ;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Noto Sans,Liberation Sans,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-weight: 900;
+  font-size: 40px;
+   
+        }
+input[type=password]  {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #928b8b; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+input[type=email]  {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #928b8b; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+ .login {
+        background: white;
+        padding: 60px;
+        border-radius: 100px;
+        box-shadow: 0 2px 3px #e096e0;
+        display: inline-block;
+        margin: 0 auto;
+   vertical-align: middle;
+      }
+
+a {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: purple;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  
+}
+a:hover,a:active,a:focus {
+  background: #511551;
+}

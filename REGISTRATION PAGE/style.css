@@ -1,0 +1,88 @@
+body {
+  text-align: start;
+  background: linear-gradient(to right bottom, #992499, #3c3caa);
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
+  min-height:100vh;
+}
+
+h1 {
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Noto Sans,Liberation Sans,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-weight: 900;
+  font-size: 40px;
+  color: #992899;
+}
+input[type=text],select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #928b8b; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+input[type=date] {
+width: 100%; 
+  padding: 12px; 
+  border: 1px solid #928b8b; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  
+}
+input[type=email] {
+width: 100%; 
+  padding: 12px; 
+  border: 1px solid #928b8b; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+input[type=color]  {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid white; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+a:hover {
+  background-color: #511551;
+}
+
+.container {
+  background: white;
+  padding: 60px;
+  border-radius: 100px;
+ margin: 50px 20px;
+}
+a{
+ font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Noto Sans,Liberation Sans,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  text-transform: uppercase;
+  outline: 0;
+  background: #992899;
+  width: 15%;
+  border: 0;
+  padding: 8px;
+  color: black;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+p{
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Noto Sans,Liberation Sans,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-weight: 200;
+  font-size: 20px;
+  color: #992899;
+  padding: 5px;
+}
