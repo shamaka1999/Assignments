@@ -1,5 +1,5 @@
 
-# Week 3 Task
+# Week 6 and 7 Task
 
-This Project contains the registration page and the portfolio page 
+This Project contains the Carousel/slideshow task
 
